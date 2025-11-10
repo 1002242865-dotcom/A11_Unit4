@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A11_06102025_NodeInt
+namespace A11_06102025_NodeInt.Mains
 {
     internal class PROGRAM2025
     {

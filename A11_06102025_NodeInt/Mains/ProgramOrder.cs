@@ -1,14 +1,15 @@
-﻿using System;
+﻿using A11_06102025_NodeInt.Store;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A11_06102025_NodeInt
+namespace A11_06102025_NodeInt.Mains
 {
     internal class ProgramOrder
     {
-        static void Main(string[] args)
+        static void MainOrder(string[] args)
         {
             Order a1 = new Order(790);
             Order a2 = new Order(474);

@@ -1,4 +1,6 @@
-﻿namespace A11_06102025_NodeInt
+﻿using A11_06102025_NodeInt.CirclePoint;
+
+namespace A11_06102025_NodeInt.Mains
 {
     internal class Program
     {

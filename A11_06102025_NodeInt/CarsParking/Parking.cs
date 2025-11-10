@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A11_06102025_NodeInt
+namespace A11_06102025_NodeInt.CarsParking
 {
     internal class Parking
     {

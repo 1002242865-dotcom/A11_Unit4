@@ -1,10 +1,11 @@
-﻿using System;
+﻿using A11_06102025_NodeInt.CarsParking;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A11_06102025_NodeInt
+namespace A11_06102025_NodeInt.Mains
 {
     internal class ProgramParking
     {

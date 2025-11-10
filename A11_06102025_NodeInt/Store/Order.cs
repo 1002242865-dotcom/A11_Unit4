@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A11_06102025_NodeInt
+namespace A11_06102025_NodeInt.Store
 {
     internal class Order
     {
@@ -17,10 +17,10 @@ namespace A11_06102025_NodeInt
         public Order(int c_Id)
         {
             counter++;
-            this.Num = counter;
-            this.C_Id = c_Id;
-            this.products = null;
-            this.last = null;
+            Num = counter;
+            C_Id = c_Id;
+            products = null;
+            last = null;
         }
 
         //AddProduct: add the p product to the end of the list

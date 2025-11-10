@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A11_06102025_NodeInt
+namespace A11_06102025_NodeInt.Store
 {
     internal class Product
     {
@@ -13,26 +13,26 @@ namespace A11_06102025_NodeInt
         private double Price;
         public Product(int id, string name, double price)
         {
-            this.Id = id;
-            this.Name = name;
-            this.Price = price;
+            Id = id;
+            Name = name;
+            Price = price;
         }
 
         
        
 
         public void SetId(int id)
-        { this.Id = id; }
+        { Id = id; }
         public int GetId()
-        { return this.Id; }
+        { return Id; }
         public void SetName(string name)
-        { this.Name = name; }
+        { Name = name; }
         public string GetName()
-        { return this.Name; }
+        { return Name; }
         public void SetPrice(double price)
-        { this.Price = price; }
+        { Price = price; }
         public double GetPrice()
-        { return this.Price; }
+        { return Price; }
         public override string ToString()
         {
             return "Id:" + Id + ", Name:" + Name + ", Price:" + Price;

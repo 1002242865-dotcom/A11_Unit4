@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A11_06102025_NodeInt
+namespace A11_06102025_NodeInt.CarsParking
 {
     internal class Car
     {
@@ -23,21 +23,21 @@ namespace A11_06102025_NodeInt
         public void SetNum(int num)
         { this.num = num; }
         public int GetNum() 
-        { return this.num; }
+        { return num; }
 
         public void SetYear(int year)
         { this.year = year; }
         public int GetYear() 
-        { return this.year; }
+        { return year; }
 
         public void SetColor(string color) 
         { this.color = color; }
         public string GetColor() 
-        { return this.color; }
+        { return color; }
 
-        public void SetIsSport(bool isSpprt) { this.isSport = isSport; }
+        public void SetIsSport(bool isSpprt) { isSport = isSport; }
         public bool GetIsSport() 
-        { return this.isSport; }
+        { return isSport; }
 
         public override string ToString()
         {

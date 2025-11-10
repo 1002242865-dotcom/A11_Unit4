@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A11_06102025_NodeInt
+namespace A11_06102025_NodeInt.CirclePoint
 {
     internal class Point
     {
@@ -18,8 +18,8 @@ namespace A11_06102025_NodeInt
 
         public Point(int a)
         {
-            this.x = a;
-            this.y = a; 
+            x = a;
+            y = a; 
         }
 
         public Point()
