@@ -14,8 +14,9 @@ namespace A11_06102025_NodeInt
 
         static void Main(string[] args)
         {
-            int[] a = { 7, -1, 6, 14, 51, 8, 9, -8 };
+            int[] a = { 7, -1, 6, 14, 51, 8, 9, -8 ,88};
             Queue<int> q = ArrayToQueue(a);
+            Console.WriteLine(q);
             int x = Size(q);
         }
 
@@ -109,6 +110,8 @@ namespace A11_06102025_NodeInt
         //عملية خارجية باسم RevQueueالتي تتلقى دور وتعيد دور جديد يحتوي على نفس القيم ولكن بترتيب عكسي
 
         //عملية خارجية باسم RemoveOddالتي تتلقى دور وتحذف القيم الفردية التي فيه
+
+       
 
 
         //عملية خارجية باسم LongestStringالتي تتلقى دور نصوص وتعيد النص الاطول في الدور، اذا كان الدور فارغ تعيد null
@@ -208,7 +211,5 @@ namespace A11_06102025_NodeInt
 
     }
 
-    public class T
-    {
-    }
+    
 }
